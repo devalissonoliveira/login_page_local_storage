@@ -1,0 +1,132 @@
+/* ---------- IMPORTAÇÃO DA FONTE ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* ---------- BODY ---------- */
+body{
+    background-color: #e1d12e;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #login-container {
+    /* border: 1px solid green; */
+    width: 50em;
+    height: 28em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 16px 4px #0000005c;
+}
+
+main #login-container #inscrever-se{
+    background: linear-gradient(45deg, #04244c 50%, #073062 100%);
+    color: #ffffff;
+    font-size: 2.5rem;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    cursor: pointer; 
+}
+
+main #login-container #inscrever-se span{
+    background-color: #ffffff;
+    height: 0.1em;
+    width: 1.4em;
+}
+main #login-container #icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+}
+main #login-container .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    position: absolute;
+    background: linear-gradient(45deg, #04244c 50%, #073062 90%);
+    color: #ffffff;
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2rem; 
+    cursor: pointer;    
+}
+
+main #login-container #login-input{
+    background: linear-gradient(45deg, rgba(225,209,46,1) 50%, rgba(238,229,139,1) 100%);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;    
+}
+
+main #login-container #login-input label , main #login-container #login-input p, main #login-container #login-input a{
+    color: #04244c;
+    font-weight: 700;
+}
+
+main #login-container #login-input input{
+    height: 2em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #073062;
+}
+
+main #login-container #login-input input:focus{
+    outline: 0;
+}
+
+main #login-container #login-input #usuario{
+    margin-bottom: 2em;
+}
+
+main #login-container #login-input #senha{
+    margin-bottom: 1em;
+}
+
+main #login-container #login-input button{
+    background: linear-gradient(45deg, #04244c 50%, #073062 100%);
+    color: #ffffff;
+    width: 8em;
+    height: 3em;
+    cursor: pointer;
+    margin-top: 2em;
+    border: none;
+    border-radius: 0.3em;
+    transition: 0.2s;
+}
+
+main #login-container #login-input button:hover{
+    transform: scale(1.1);
+}
+
+main #login-container #login-input button:active{
+    transform: scale(1.0);
+}

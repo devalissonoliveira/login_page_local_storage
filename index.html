@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
     <title>Login Page</title>
 </head>
 <body>
-    <section id="login-container">
-        <div id="inscrever-se">
-            <h1>Inscrever-se</h1>
-            <div id="linha"></div>
-        </div>
-        <div id="btn-inscrever-se">
-            <button>&gt;</button>
-        </div>
-        <div id="login-input">
-            <label for="usuario">USU&Agrave;RIO</label>
-            <input type="text" id="usuario" name="usuario" placeholder="Digite o seu usuário">
-            <label for="senha">SENHA</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite a sua senha">
-            <p id="clique-aqui">Para alterar a senha <a href="#">clique aqui</a></p>
-            <button>ENTRAR</button>
-        </div>
-    </section>
+    <main>
+        <section id="login-container">
+            <div id="inscrever-se">
+                Inscrever-se <span></span>
+            </div>
+            <div id="icon">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </div>
+            <div id="login-input">            
+                <label for="usuario">USU&Aacute;RIO</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Digite o seu usuário">
+                <label for="senha">SENHA</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite a sua senha">
+                <p>Para alterar a senha <a href="#">clique aqui</a></p>
+                <button type="submit">ENTRAR</button>                
+            </div>
+        </section>
+    </main>
 </body>
 </html>
