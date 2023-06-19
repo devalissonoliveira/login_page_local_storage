@@ -1,0 +1,71 @@
+/* ---------- IMPORTAÇÃO DA FONTE ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* ---------- BODY ---------- */
+body{
+    background-color: #e1d12e;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form{
+    background: linear-gradient(45deg, #04244c 50%, #073062 100%);
+    color: #ffffff;
+    width: 35em;
+    height: 32em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;   
+    box-shadow: 0px 0px 16px 4px #0000005c;
+    padding: 0 5em;
+}
+
+main form h2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+main form label{
+    margin-top: 1.5em;
+}
+
+main form input{    
+    height: 2em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    margin-top: 0.3em;
+}
+
+main form input:focus{
+    outline: 0;
+}
+
+
+main form .help-text{
+    font-size: 0.8rem;
+    color:#ff0000;
+    text-align: end;
+    display: none;
+}
+
+main form #btn-submit {
+    align-items: center;
+    width: 8em;
+    height: 3.5em;
+    background-color: #e1d12e;
+    align-self: center;
+    margin-top: 1em;
+    color: #04244c;
+}
